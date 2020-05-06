@@ -1,0 +1,14 @@
+.topcard{
+    position: absolute;
+    top: 20vh;
+    width:25em ;
+    /* background-color: rgba(0,0,0,0.5) */
+}
+.login_btn:hover{
+    color: black;
+    background-color: white;
+    }
+    .input-group-prepend span{
+        width: 50px;
+        background-color: rgb(248, 246, 248);
+    }

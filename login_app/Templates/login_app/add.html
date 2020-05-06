@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        {% load static %}
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Add Routine</title>
+        <link rel="icon" href="{%  static 'images/icon.png' %}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="{% static 'css/add.css' %}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+    </head>
+
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <div class="card addcard">
+                <div class="card-header">
+                    <h3>Add Routine</h3>
+                </div>
+                <div class="card-body">
+                    <form action="">
+                        <div class=" input-group form-group">
+                            <input  id = "datetimepicker1" type="text" class="form-control" required>
+                            <div class="input-group-append">
+                                <span id = "cal" class="input-group-text calender"><i class="far fa-calendar-alt"></i></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="Textarea1">Enter routine:</label>
+                            <textarea class="form-control" id="Textarea1" rows="3"></textarea>
+                          </div>
+                          <div class="form-group">
+                            <input type="sumbit" class = "btn login_btn btn-dark btn-block " value="Submit">
+                        </div>
+
+                    </form>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

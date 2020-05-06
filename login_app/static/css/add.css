@@ -1,0 +1,14 @@
+.addcard{
+    position: absolute;
+    top: 20vh;
+    width:25em ;
+
+}
+
+.calender:hover{
+    cursor: pointer;
+}
+.login_btn:hover{
+    color: black;
+    background-color: white;
+    }

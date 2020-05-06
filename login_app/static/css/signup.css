@@ -1,0 +1,16 @@
+.topcard {
+    position: absolute;
+    top: 20vh;
+    width: 30em;
+    /* background-color: rgba(0,0,0,0.5) */
+}
+
+.login_btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.topcard {
+    position: absolute;
+    top: 20vh;
+}
